@@ -59,7 +59,11 @@
             <artifactId>spring-context</artifactId>
             <version>${spring.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20210307</version> <!-- or the latest version available -->
+        </dependency>
         <!-- provided dependencies -->
         <dependency>
             <groupId>javax.servlet</groupId>
